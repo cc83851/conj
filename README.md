@@ -14,7 +14,10 @@ The environment variable VSOP87 must be set to point at the directory containing
 export VSOP87=/Users/chris/src/go-area/astro/vsop87
 </pre>
 
-##Usage
+## Usage
+
+The following four parameters are supported via runtime arguments:
+
 <pre>
 Usage of conj.go
   -end_year int
@@ -27,7 +30,9 @@ Usage of conj.go
     	Start Year (default 2020)
 </pre>
 
-##Example run
+Changes to other parameters (e.g. thresholds and time increments) currently need to be made in the code itself.
+
+## Example run
 <pre>
 $ go run conj.go -start_year 2000 -planet1 Saturn -planet2 Jupiter -end_year 2020 
  
