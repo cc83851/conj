@@ -1,9 +1,10 @@
 
+# Pre-requisites
 This program uses selected algorithms from the book "Astronomical Algorithms" by Jean Meeus, as implemented in go packages by Sonia keys
 
 https://github.com/soniakeys/meeus
 
-Thhe above can be downloaded and installed on your system with
+The above can be downloaded and installed on your system with
 <pre>
 go get -t github.com/soniakeys/meeus/...
 </pre>
@@ -13,7 +14,7 @@ The environment variable VSOP87 must be set to point at the directory containing
 export VSOP87=/Users/chris/src/go-area/astro/vsop87
 </pre>
 
-Usage
+#Usage
 <pre>
 Usage of conj.go
   -end_year int
@@ -26,7 +27,7 @@ Usage of conj.go
     	Start Year (default 2020)
 </pre>
 
-Example run
+#Example run
 <pre>
 $ go run conj.go -start_year 2000 -planet1 Saturn -planet2 Jupiter -end_year 2020 
  
