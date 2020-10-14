@@ -1,8 +1,12 @@
 
-This program uses Selected algorithms from the book "Astronomical Algorithms" by Jean Meeus, as implemented in go packages by Sonia keys
+This program uses selected algorithms from the book "Astronomical Algorithms" by Jean Meeus, as implemented in go packages by Sonia keys
 
 https://github.com/soniakeys/meeus
 
+Thhe above can be downloaded and installed on your system with
+<pre>
+go get -t github.com/soniakeys/meeus/...
+</pre>
 
 The environment variable VSOP87 must be set to point at the directory containing the VSOP87B* data files e.g.
 <pre>
